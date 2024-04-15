@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Website</title>
+    <!-- favicon -->
+    <link rel="icon" href="./images/logo.jpg" type="image/x-icon">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- cssfile -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Uchen&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+
+    <!-- navbar start-->
+    <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+        <div class="container">
+          <a class="navbar-brand" href="index.html" id="logo"><span>T</span>ravel</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span><i class="fa-solid fa-bars"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#book">Book</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#packages">Packages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#gallery">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="text" placeholder="Search">
+              <button class="btn btn-primary" type="button">Search</button>
+            </form>
+          </div>
+        </div>
+    </nav>
+    <!-- navbar ends -->
+
+    <!-- Home section start -->
+    <div class="home">
+        <div class="content">
+            <h5>Welcome To India</h5>
+            <h1>Visit <span class="changecontent"></span></h1>
+            <p>India is one of the most preferred tourist destinations in Asia because of its beautiful landscape, rich cultural heritage, myriad attractions and valuable ancient history. India serves as the hub of different cultures and languages within it and has always attracted domestic and international tourists.</p>
+            <a href="#book">Book Place</a>
+        </div>
+    </div>
+    <!-- Home section ends -->
+
+    
+    <!-- book section start -->
+    <section class="book" id="book">
+      <div class="container">
+        <div class="main-text">
+          <h1><span>B</span>ook</h1>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/boo.jpg" alt=""height="550px">
+            </div>
+          </div>
+          <div class="col-md-6 py-3 py-md-0">
+            <form action="#">
+              <input type="text" class="form-control" placeholder="Where To" required><br>
+              <input type="text" class="form-control" placeholder="How Many" required><br>
+              <input type="date" class="form-control" placeholder="Arrivals" required><br>
+              <input type="date" class="form-control" placeholder="Leaving" required><br>
+              <textarea class="form-control" rows="5" name="text" placeholder="Enter Your Name & Details"></textarea><br>
+              <input type="submit" value="Book Now" class="submit" required>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- book section ends -->
+
+    <!-- packages section start -->
+    <section class="packages" id="packages">
+      <div class="container">
+        <div class="main-txt">
+          <h1><span>P</span>ackages</h1>
+        </div>
+      
+      <div class="row" style="margin-top: 30px;">
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/taj-mahal.jpg" alt="">
+            <div class="card-body">
+              <h3>Taj Mahal</h3>
+              <p>The Taj Mahal is an ivory-white marble mausoleum on the south bank of the Yamuna river in the Indian city of Agra. It was commissioned in 1632 by the Mughal emperor, Shah Jahan (reigned from 1628 to 1658), to house the tomb of his favourite wife, Mumtaz Mahal.</p>
+              <div class="star">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star "></i>
+              </div>
+              <h6>Price: <strong>₹ 1100 </strong></h6>
+              <a href="#book">Book Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/ooty.jpg" alt="">
+            <div class="card-body">
+              <h3>Ooty</h3>
+              <p>Ooty is a town and hill station in the Indian state of Tamil Nadu. The name "Ooty" is short for Ootacamund (officially Udhagamandalam). Ooty is located in the Nilgiris district, or Blue Mountains, a mountain district. Ooty stands at about 7,500 feet above sea level.</p>
+              <div class="star">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star "></i>
+              </div>
+              <h6>Price: <strong>₹ 1,999</strong></h6>
+              <a href="#book">Book Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/goa1.jpg" alt="" height="280px">
+            <div class="card-body">
+              <h3>Goa</h3>
+              <p>This place is known for its famous beaches, culture, climate, and historical places. You may find colourful architecture, lush greenery, and breathtaking beaches here. Goa is a perfect blend of Portugal and Indian culture.The culture of Goa is an amalgamation of Indian and Portuguese culture.</p>
+              <div class="star">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star "></i>
+              </div>
+              <h6>Price: <strong>₹ 15,000</strong></h6>
+              <a href="#book">Book Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row" style="margin-top: 30px;">
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/kerala.jpg" alt="" height="280px">
+            <div class="card-body">
+              <h3>Alappuzha</h3>
+              <p>A town with canals, backwaters, beaches, and lagoons, Alappuzha was described by George Curzon, Viceroy of India at the start of the 20th century, as the "Venice of the East." Hence, it is known as the "Venetian Capital" of Kerala. It is an important tourist destination in India.</p>
+              <div class="star">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star "></i>
+              </div>
+              <h6>Price: <strong>₹5,743 </strong></h6>
+              <a href="#book">Book Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/mnali.jpg" alt="" height="280px">
+            <div class="card-body">
+              <h3>Manali</h3>
+              <p>Manali is synonymous streams and birdsong, forests and orchards and grandees of snow-capped mountains. Manali is the real starting point of an ancient trade route which crosses the Rohtang and Baralacha passes, and runs via Lahul and Ladakh to Kashmir while divergent road connects it with Spiti.
+              </p>
+              <div class="star">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star "></i>
+              </div>
+              <h6>Price: <strong>₹ 15,999</strong></h6>
+              <a href="#book">Book Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/KASHMIR.jpg" alt="" height="280px">
+            <div class="card-body">
+              <h3>Kashmir</h3>
+              <p>A succession of Hindu dynasties ruled Kashmir until 1346, when it came under Muslim rule. The Muslim period lasted nearly five centuries, ending when Kashmir was annexed to the Sikh kingdom of the Punjab in 1819 and then to the Dogra kingdom of Jammu in 1846.</p>
+              <div class="star">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star "></i>
+              </div>
+              <h6>Price: <strong>₹ 24,000</strong></h6>
+              <a href="#book">Book Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      </div>
+    </section>
+    <!-- packages section ends -->
+
+    <!-- service section start -->
+    <section class="services" id="services">
+      <div class="container">
+        <div class="main-txt">
+          <h1><span>S</span>ervices</h1>
+        </div>
+        <div class="row" style="margin-top: 30px">
+          <div class="col-md-3 py-3 py-md-0">
+            <div class="card">
+              <i class="fas fa-hotel"></i>
+              <div class="card-body">
+                <h3>Affordable Hotel</h3>
+                <p>1. Ramada by Wyndham,Mussoorie Mall Road · 2. Sun Park Resort Manali · 3. Sea Shell Resort & Spa, Havelock · 4. Sterling Corbett ·</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 py-3 py-md-0">
+            <div class="card">
+              <i class="fas fa-utensils"></i>
+              <div class="card-body">
+                <h3>Food & Drink</h3>
+                <p>Indian cuisine is also known for its wide variety of bread types, such as naan, roti, and paratha bread. It is shaped by climate, land, and access to natural resources. </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 py-3 py-md-0">
+            <div class="card">
+              <i class="fas fa-bullhorn"></i>
+              <div class="card-body">
+                <h3>Safety Guide</h3>
+                <p>Arguably nowhere is the tour guide more necessary than in India. Yes, it's easy to visit the main sites yourself in most Indian cities.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 py-3 py-md-0">
+            <div class="card">
+              <i class="fas fa-plane"></i>
+              <div class="card-body">
+                <h3>Fastest Travel</h3>
+                <p>The SU-30 MKI is known for its exceptional speed and performance capabilities, making it the fastest aircraft in the Indian Air Force. </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- service section ends -->
+
+    <!-- gallery section start -->
+    <div class="gallery" id="gallery">
+      <div class="container">
+        <div class="main-txt">
+          <h1><span>G</span>allery</h1>
+        </div>
+
+        <div class="row" style="margin-top: 30px;">
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/-jaisalmer.jpg" alt="" height="230px">
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/Chennai-1.jpg" alt="" height="230px">
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/goa.jpg" alt="" height="230px">
+            </div>
+          </div>
+        </div>
+
+        <div class="row" style="margin-top: 30px;">
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/g1.jpg" alt="" height="230px">
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/g2.jpg" alt="" height="230px">
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/g3.jpg" alt="" height="230px">
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <!-- gallery section ends -->
+
+
+    <!-- about section start -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="main-txt">
+          <h1>About <span>Us</span></h1>
+        </div>
+
+        <div class="row" style="margin-top: 50px;">
+          <div class="col-md-6 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/c1.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-md-6 py-3 py-md-0">
+            <h2>How Our Travel Agency Work</h2>
+            <p>They work with hotels, airlines, and other vendors to create travel packages and experiences that their clients will love. Travel agents can work with large groups, individuals, families, professional organizations, and others to help create seamless travel experiences that help create memories.A travel agent's role is to help people plan, choose and arrange their holiday. They will usually work to a budget set out by whoever is planning the holiday. They also offer advice and opinions on where to go and local tourist attractions, events and customs.
+              A retail travel agency is defined as 'a business that performs the following functions: quote fares and rates, make reservations, arrange travel tickets and accommodation, arrange travel insurance, foreign currency, documents and accept payments. </p>
+            <button id="about-btn">Read More...</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about section ends -->
+    
+
+    <!-- footer section start -->
+    <footer id="footer">
+      <h1><span>T</span>ravel</h1>
+      <p>Travel and tourism have significantly shaped the global economy and brought people together from different cultures and backgrounds.</p>
+      <div class="social-links">
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-whatsapp"></i>
+        <i class="fa-brands fa-youtube"></i>
+      </div>
+      <div class="credit">
+        <p>Designed by <a href="#">Travel</a></p>
+      </div>
+      <div class="copyright">
+        <p>&copy;Copyright Travel.All Rights Reserved</p>
+      </div>
+    </footer>
+    <!-- footer section ends -->
+
+</body>
+</html>
